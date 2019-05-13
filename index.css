@@ -1,7 +1,6 @@
-html {
-  background-image: url(ryota-mine-toronto.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  background-image: url("./docs/ryota-mine-toronto.jpg");
+  background-size: 100vw 100vh;
 }
 
 h1 {
