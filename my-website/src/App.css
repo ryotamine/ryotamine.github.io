@@ -1,20 +1,18 @@
-.App {
-  text-align: left;
-  font-size: 18px;
-  display: inline;
-}
-
 .App-header {
   background-color: white;
   height: 50px;
   padding: 10px;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar-brand, .nav-link {
+  padding: 0px;
   color: black;
 }
 
-.navbar-brand {
-  color: black;
-}
-
-.navbar-brand:hover {
+.navbar-brand:hover, .nav-link:hover {
   color: grey;
 }
