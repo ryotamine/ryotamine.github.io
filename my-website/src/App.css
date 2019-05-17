@@ -4,8 +4,9 @@
   padding: 10px;
 }
 
-.navbar {
-  padding: 0px;
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .navbar-brand, .nav-link {
@@ -15,4 +16,8 @@
 
 .navbar-brand:hover, .nav-link:hover {
   color: grey;
+}
+
+.linkedin, .github, .twitter, .gmail {
+  padding: 0px 6px;
 }
