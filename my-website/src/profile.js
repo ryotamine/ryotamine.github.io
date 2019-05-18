@@ -7,8 +7,8 @@ class Profile extends Component {
     return (
       <div className="profile">
         <div className="headline">
-          <h2>Profile</h2>
-          <p>Full-Stack Web Developer | Mechanical Engineering</p>
+          <h1>Profile</h1>
+          <h3>Full-Stack Web Developer | Mechanical Engineering</h3>
           <hr></hr>
         </div>
         <div id="profile-section" className="form-row">

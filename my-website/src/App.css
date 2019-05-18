@@ -4,7 +4,7 @@
 }
 
 .navbar {
-  background-color: white;
+  background-color: #92e585;
 }
 
 .navbar-brand {
@@ -33,6 +33,7 @@
 }
 
 .profile {
+  background-color: #f3efe0;
   background-size: cover;
   width: 100vw;
   height: 100vh;
