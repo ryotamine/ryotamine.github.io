@@ -8,13 +8,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <nav className="navbar fixed-top">
-            <a className="navbar-brand" href="/">RYOTA MINE</a>
-            <a className="nav-link" href="/">SUMMARY</a>
-            <a className="nav-link" href="/">EDUCATION</a>
-            <a className="nav-link" href="/">SKILLS</a>
-            <a className="nav-link" href="/">PROJECTS</a>
-            <a className="nav-link" href="/">EMPLOYMENT</a>
             <form className="form-inline">
+              <a className="navbar-brand" href="/">RYOTA MINE</a>
               <div className="linkedin">
                 <a className="nav-link" 
                   href="https://www.linkedin.com/in/ryotamine" 
@@ -52,13 +47,18 @@ class App extends Component {
                 <a className="nav-link" 
                   href="mailto:ryotamine@gmail.com"
                 >
-                  <i class="fas fa-envelope-square fa-2x" 
+                  <i className="fas fa-envelope-square fa-2x" 
                     alt="Ryota Mine Gmail"
                   >
                   </i>
                 </a>
               </div>
             </form>
+            <a className="nav-link" href="#summary">SUMMARY</a>
+            <a className="nav-link" href="#education">EDUCATION</a>
+            <a className="nav-link" href="#skills">SKILLS</a>
+            <a className="nav-link" href="#projects">PROJECTS</a>
+            <a className="nav-link" href="#employment">EMPLOYMENT</a>
           </nav>
         </div>
       </div>

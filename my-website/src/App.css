@@ -1,7 +1,10 @@
 .App-header {
-  background-color: white;
   height: 50px;
   padding: 10px;
+}
+
+.navbar {
+  background-color: white;
 }
 
 .navbar-brand {
@@ -19,5 +22,13 @@
 }
 
 .linkedin, .github, .twitter, .gmail {
-  padding: 0px 6px;
+  padding-right: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  .App-header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
