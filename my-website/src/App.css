@@ -1,10 +1,3 @@
-.App {
-  background-image: url("../docs/toronto.png");
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-
 .App-header {
   height: 50px;
   padding: 10px;
@@ -30,6 +23,13 @@
 
 .linkedin, .github, .twitter, .gmail {
   padding-right: 12px;
+}
+
+.main-picture {
+  background-image: url("../docs/toronto.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media screen and (max-width: 900px) {
