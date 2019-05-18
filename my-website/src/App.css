@@ -32,14 +32,19 @@
   height: 100vh;
 }
 
-.summary {
+.profile {
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  padding: 50px;
 }
 
-#summary-section {
-  padding: 50px;
+.headline {
+  text-align: center;
+}
+
+hr {
+  margin: 40px 0px;
 }
 
 img {

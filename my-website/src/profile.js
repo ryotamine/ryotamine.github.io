@@ -1,14 +1,19 @@
 import React, { Component } from "react";
-import profile from "../docs/ryota-mine.png";
+import picture from "../docs/ryota-mine.png";
 
-class Summary extends Component {
-  // Render summary page
+class Profile extends Component {
+  // Render profile page
   render() {
     return (
-      <div className="summary">
-        <div id="summary-section" className="form-row">
+      <div className="profile">
+        <div className="headline">
+          <h2>Profile</h2>
+          <p>Full-Stack Web Developer | Mechanical Engineering</p>
+          <hr></hr>
+        </div>
+        <div id="profile-section" className="form-row">
           <div id="profile" className="form-group col-md-4">
-            <img src={profile} alt="Ryota Mine"></img>
+            <img src={picture} alt="Ryota Mine"></img>
           </div>
           <div id="info" className="form-group col-md-8">
             <h3>Summary</h3>
@@ -37,4 +42,4 @@ class Summary extends Component {
   }
 }
 
-export default Summary;
+export default Profile;
