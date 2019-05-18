@@ -6,7 +6,7 @@ class Summary extends Component {
   render() {
     return (
       <div className="summary">
-        <div className="form-row">
+        <div id="summary-section" className="form-row">
           <div id="profile" className="form-group col-md-4">
             <img src={profile} alt="Ryota Mine"></img>
           </div>
