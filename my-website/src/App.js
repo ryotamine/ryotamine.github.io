@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Home from "./home.js";
 import MainPicture from "./main-picture.js";
+import Summary from "./summary.js";
 import "./App.css";
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Home />
         <MainPicture />
+        <Summary />
       </div>
     );
   }
