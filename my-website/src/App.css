@@ -1,3 +1,10 @@
+.App {
+  background-image: url("../docs/toronto.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .App-header {
   height: 50px;
   padding: 10px;
