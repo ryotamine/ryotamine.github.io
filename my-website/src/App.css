@@ -50,7 +50,7 @@ img {
   border-radius: 5px;
 }
 
-.profile {
+.profile, .skills {
   background-color: #f3efe0;
   padding: 50px;
 }

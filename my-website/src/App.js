@@ -3,6 +3,7 @@ import Home from "./home.js";
 import MainPicture from "./main-picture.js";
 import Profile from "./profile.js";
 import Education from "./education.js";
+import Skills from "./skills.js";
 import "./App.css";
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         <MainPicture />
         <Profile />
         <Education />
+        <Skills />
       </div>
     );
   }
