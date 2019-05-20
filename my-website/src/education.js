@@ -6,7 +6,7 @@ class Education extends Component {
   // Render education page
   render() {
     return (
-      <div className="education">
+      <div className="education responsive">
         <div className="headline">
           <h1>Education</h1>
           <h3>Lighthouse Labs | University of Waterloo</h3>
@@ -16,7 +16,7 @@ class Education extends Component {
            href="https://lighthouselabs.ca/"
            target="_blank"
         >
-          <div className="form-row responsive">
+          <div className="form-row">
             <div className="form-group col-md-4">
               <img
                 src={lighthouseLabs}
@@ -44,7 +44,7 @@ class Education extends Component {
            href="https://uwaterloo.ca/"
            target="_blank"
         >
-          <div className="form-row responsive">
+          <div className="form-row">
             <div className="form-group col-md-4">
               <img
                 src={universityOfWaterloo}

@@ -1,19 +1,24 @@
 import React, { Component } from "react";
-import picture from "../docs/ryota-mine.png";
+import profilePicture from "../docs/ryota-mine.png";
 
 class Profile extends Component {
   // Render profile page
   render() {
     return (
-      <div className="profile">
+      <div className="profile responsive">
         <div className="headline">
           <h1>Profile</h1>
           <h3>Full-Stack Web Developer | Mechanical Engineering</h3>
           <hr></hr>
         </div>
-        <div id="profile-section" className="form-row">
-          <div id="profile" className="form-group col-md-4">
-            <img src={picture} alt="Ryota Mine"></img>
+        <div className="form-row">
+          <div className="form-group col-md-4">
+            <img 
+              src={profilePicture}
+              className="rounded mx-auto d-block"
+              alt="Ryota Mine"
+            >
+            </img>
           </div>
           <div id="info" className="form-group col-md-8">
             <h3>Summary</h3>
@@ -35,6 +40,7 @@ class Profile extends Component {
               <br></br>
               Internet
             </p>
+            <br></br>
           </div>
         </div>
       </div>
