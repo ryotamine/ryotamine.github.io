@@ -12,15 +12,15 @@ class Education extends Component {
           <h3>Lighthouse Labs | University of Waterloo</h3>
           <hr></hr>
         </div>
-        <a className="lighthouse-labs" 
-            href="https://lighthouselabs.ca/" 
-            target="_blank"
+        <a className="lighthouse-labs"
+           href="https://lighthouselabs.ca/"
+           target="_blank"
         >
           <div className="form-row responsive">
             <div className="form-group col-md-4">
-              <img 
-                src={lighthouseLabs} 
-                className="rounded mx-auto d-block" 
+              <img
+                src={lighthouseLabs}
+                className="rounded mx-auto d-block"
                 alt="Lighthouse Labs"
               >
               </img>
@@ -40,15 +40,15 @@ class Education extends Component {
             </div>
           </div>
         </a>
-        <a className="university-of-waterloo" 
-           href="https://uwaterloo.ca/" 
+        <a className="university-of-waterloo"
+           href="https://uwaterloo.ca/"
            target="_blank"
         >
           <div className="form-row responsive">
             <div className="form-group col-md-4">
-              <img 
-                src={universityOfWaterloo} 
-                className="rounded mx-auto d-block" 
+              <img
+                src={universityOfWaterloo}
+                className="rounded mx-auto d-block"
                 alt="University of Waterloo"
               >
               </img>
