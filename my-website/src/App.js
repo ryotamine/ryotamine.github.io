@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Home from "./home.js";
 import MainPicture from "./main-picture.js";
 import Profile from "./profile.js";
+import Education from "./education.js";
 import "./App.css";
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <Home />
         <MainPicture />
         <Profile />
+        <Education />
       </div>
     );
   }
