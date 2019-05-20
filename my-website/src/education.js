@@ -12,14 +12,14 @@ class Education extends Component {
           <h3>Lighthouse Labs | University of Waterloo</h3>
           <hr></hr>
         </div>
-        <div id="education-section" className="form-row">
-          <div id="school" className="form-group col-md-4">
-            <div className="row row-flex">
-              <img src={lighthouseLabs} alt="Lighthouse Labs"></img>
-            </div>
-            <div className="row row-flex">
-              <img src={universityOfWaterloo} alt="University of Waterloo"></img>
-            </div>
+        <div id="lighthouse-labs" className="form-row">
+          <div className="form-group col-md-4">
+            <img 
+              src={lighthouseLabs} 
+              className="rounded mx-auto d-block" 
+              alt="Lighthouse Labs"
+            >
+            </img>
           </div>
           <div id="info" className="form-group col-md-8">
             <h3>Lighthouse Labs</h3>
@@ -31,6 +31,18 @@ class Education extends Component {
               Toronto, Ontario, Canada
             </p>
             <br></br>
+          </div>
+        </div>
+        <div id="university-of-waterloo" className="form-row">
+          <div className="form-group col-md-4">
+            <img 
+              src={universityOfWaterloo} 
+              className="rounded mx-auto d-block" 
+              alt="University of Waterloo"
+            >
+            </img>
+          </div>
+          <div id="info" className="form-group col-md-8">
             <h3>University of Waterloo</h3>
             <p>
               <strong>Bachelor of Applied Science, Honours Mechanical Engineering Co-op</strong>
@@ -39,6 +51,7 @@ class Education extends Component {
               <br></br>
               Waterloo, Ontario, Canada
             </p>
+            <br></br>
           </div>
         </div>
       </div>
