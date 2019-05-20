@@ -66,6 +66,24 @@ img {
   padding: 50px;
 }
 
+.lighthouse-labs {
+  color: black;
+}
+
+.lighthouse-labs:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.university-of-waterloo {
+  color: black;
+}
+
+.university-of-waterloo:hover {
+  color: black;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 900px) {
   .App-header a {
     float: none;

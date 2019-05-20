@@ -12,48 +12,62 @@ class Education extends Component {
           <h3>Lighthouse Labs | University of Waterloo</h3>
           <hr></hr>
         </div>
-        <div id="lighthouse-labs" className="form-row">
-          <div className="form-group col-md-4">
-            <img 
-              src={lighthouseLabs} 
-              className="rounded mx-auto d-block" 
-              alt="Lighthouse Labs"
-            >
-            </img>
-          </div>
-          <div id="info" className="form-group col-md-8">
-            <h3>Lighthouse Labs</h3>
-            <p>
-              <strong>Diploma, Web Development</strong>
+        <a className="lighthouse-labs" 
+           href="https://lighthouselabs.ca/" 
+           target="_blank"
+        >
+          <div className="form-row">
+            <div className="form-group col-md-4">
+              <img 
+                src={lighthouseLabs} 
+                className="rounded mx-auto d-block" 
+                alt="Lighthouse Labs"
+              >
+              </img>
+            </div>
+            <div className="form-group col-md-8">
+              <h3>Lighthouse Labs</h3>
+              <p>
+                <strong>
+                  Diploma, Web Development
+                </strong>
+                <br></br>
+                Mar - May 2019
+                <br></br>
+                Toronto, Ontario, Canada
+              </p>
               <br></br>
-              Mar - May 2019
-              <br></br>
-              Toronto, Ontario, Canada
-            </p>
-            <br></br>
+            </div>
           </div>
-        </div>
-        <div id="university-of-waterloo" className="form-row">
-          <div className="form-group col-md-4">
-            <img 
-              src={universityOfWaterloo} 
-              className="rounded mx-auto d-block" 
-              alt="University of Waterloo"
-            >
-            </img>
-          </div>
-          <div id="info" className="form-group col-md-8">
-            <h3>University of Waterloo</h3>
-            <p>
-              <strong>Bachelor of Applied Science, Honours Mechanical Engineering Co-op</strong>
+        </a>
+        <a className="university-of-waterloo" 
+           href="https://uwaterloo.ca/" 
+           target="_blank"
+        >
+          <div className="form-row">
+            <div className="form-group col-md-4">
+              <img 
+                src={universityOfWaterloo} 
+                className="rounded mx-auto d-block" 
+                alt="University of Waterloo"
+              >
+              </img>
+            </div>
+            <div className="form-group col-md-8">
+              <h3>University of Waterloo</h3>
+              <p>
+                <strong>
+                  Bachelor of Applied Science, Honours Mechanical Engineering Co-op
+                </strong>
+                <br></br>
+                2013
+                <br></br>
+                Waterloo, Ontario, Canada
+              </p>
               <br></br>
-              2013
-              <br></br>
-              Waterloo, Ontario, Canada
-            </p>
-            <br></br>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
     );
   }
