@@ -13,10 +13,10 @@ class Education extends Component {
           <hr></hr>
         </div>
         <a className="lighthouse-labs" 
-           href="https://lighthouselabs.ca/" 
-           target="_blank"
+            href="https://lighthouselabs.ca/" 
+            target="_blank"
         >
-          <div className="form-row">
+          <div className="form-row responsive">
             <div className="form-group col-md-4">
               <img 
                 src={lighthouseLabs} 
@@ -44,7 +44,7 @@ class Education extends Component {
            href="https://uwaterloo.ca/" 
            target="_blank"
         >
-          <div className="form-row">
+          <div className="form-row responsive">
             <div className="form-group col-md-4">
               <img 
                 src={universityOfWaterloo} 
