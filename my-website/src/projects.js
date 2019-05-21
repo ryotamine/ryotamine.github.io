@@ -9,7 +9,7 @@ class Projects extends Component {
   // Render projects page
   render() {
     return (
-      <div className="projects responsive">
+      <div id="projects" className="responsive">
         <div className="headline">
           <h1>Projects</h1>
           <h3>Full-Stack Web Developer</h3>

@@ -8,7 +8,7 @@ class Employment extends Component {
   // Render employment page
   render() {
     return (
-      <div className="employment responsive">
+      <div id="employment" className="responsive">
         <div className="headline">
           <h1>Employment</h1>
           <h3>Mechanical Engineering</h3>

@@ -16,7 +16,7 @@ class Skills extends Component {
   // Render skills page
   render() {
     return (
-      <div className="skills responsive">
+      <div id="skills" className="responsive">
         <div className="headline">
           <h1>Skills</h1>
           <h3>Front-End | Back-End | Database</h3>

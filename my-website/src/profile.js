@@ -5,7 +5,7 @@ class Profile extends Component {
   // Render profile page
   render() {
     return (
-      <div className="profile responsive">
+      <div id="profile" className="responsive">
         <div className="headline">
           <h1>Profile</h1>
           <h3>Full-Stack Web Developer | Mechanical Engineering</h3>

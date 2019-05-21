@@ -6,7 +6,7 @@ class Education extends Component {
   // Render education page
   render() {
     return (
-      <div className="education responsive">
+      <div id="education" className="responsive">
         <div className="headline">
           <h1>Education</h1>
           <h3>Lighthouse Labs | University of Waterloo</h3>
