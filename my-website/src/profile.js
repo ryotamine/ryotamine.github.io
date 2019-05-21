@@ -36,7 +36,7 @@ class Profile extends Component {
               <br></br>
               Toronto, Ontario, Canada
               <br></br>
-              <strong>Industry</strong>
+              <strong>Industry:</strong>
               <br></br>
               Internet
             </p>
