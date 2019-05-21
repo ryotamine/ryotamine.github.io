@@ -61,18 +61,22 @@ img {
   padding: 50px;
 }
 
-.education {
+.education, .projects {
   background-color: #eee;
   padding: 50px;
 }
 
-.lighthouse-labs, .university-of-waterloo {
+.lighthouse-labs, .university-of-waterloo, .surfparrot {
   color: black;
 }
 
-.lighthouse-labs:hover, .university-of-waterloo:hover {
+.lighthouse-labs:hover, .university-of-waterloo:hover, .surfparrot:hover {
   color: black;
   text-decoration: none;
+}
+
+ul {
+  padding-left: 15px;
 }
 
 @media screen and (max-width: 767px) {
