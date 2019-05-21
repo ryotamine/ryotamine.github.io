@@ -66,11 +66,23 @@ img {
   padding: 50px;
 }
 
-.lighthouse-labs, .university-of-waterloo, .surfparrot {
+.lighthouse-labs, 
+.university-of-waterloo, 
+.surfparrot,
+.jungle,
+.chatty-app,
+.schoodle,
+.tiny-app {
   color: black;
 }
 
-.lighthouse-labs:hover, .university-of-waterloo:hover, .surfparrot:hover {
+.lighthouse-labs:hover, 
+.university-of-waterloo:hover, 
+.surfparrot:hover,
+.jungle:hover,
+.chatty-app:hover,
+.schoodle:hover,
+.tiny-app:hover {
   color: black;
   text-decoration: none;
 }
