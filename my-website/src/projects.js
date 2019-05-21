@@ -18,13 +18,12 @@ class Projects extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="surfparrot"
-                href="https://github.com/ryotamine/surfparrot"
-                target="_blank"
+               href="https://github.com/ryotamine/surfparrot"
+               target="_blank"
             >
-              <img
-                src={surfparrot}
-                className="rounded mx-auto d-block"
-                alt="Surfparrot"
+              <img src={surfparrot}
+                   className="rounded mx-auto d-block"
+                   alt="Surfparrot"
               >
               </img>
             </a>
@@ -49,13 +48,12 @@ class Projects extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="jungle"
-                href="https://github.com/ryotamine/jungle-rails"
-                target="_blank"
+               href="https://github.com/ryotamine/jungle-rails"
+               target="_blank"
             >
-              <img
-                src={jungle}
-                className="rounded mx-auto d-block"
-                alt="Jungle"
+              <img src={jungle}
+                   className="rounded mx-auto d-block"
+                   alt="Jungle"
               >
               </img>
             </a>
@@ -80,13 +78,12 @@ class Projects extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="chatty-app"
-                href="https://github.com/ryotamine/chatty-app"
-                target="_blank"
+               href="https://github.com/ryotamine/chatty-app"
+               target="_blank"
             >
-              <img
-                src={chattyApp}
-                className="rounded mx-auto d-block"
-                alt="Chatty App"
+              <img src={chattyApp}
+                   className="rounded mx-auto d-block"
+                   alt="Chatty App"
               >
               </img>
             </a>
@@ -111,13 +108,12 @@ class Projects extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="schoodle"
-                href="https://github.com/ryotamine/schoodle"
-                target="_blank"
+               href="https://github.com/ryotamine/schoodle"
+               target="_blank"
             >
-              <img
-                src={schoodle}
-                className="rounded mx-auto d-block"
-                alt="Schoodle"
+              <img src={schoodle}
+                   className="rounded mx-auto d-block"
+                   alt="Schoodle"
               >
               </img>
             </a>
@@ -142,13 +138,12 @@ class Projects extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="tiny-app"
-                href="https://github.com/ryotamine/tinyapp"
-                target="_blank"
+               href="https://github.com/ryotamine/tinyapp"
+               target="_blank"
             >
-              <img
-                src={tinyApp}
-                className="rounded mx-auto d-block"
-                alt="TinyApp"
+              <img src={tinyApp}
+                   className="rounded mx-auto d-block"
+                   alt="TinyApp"
               >
               </img>
             </a>

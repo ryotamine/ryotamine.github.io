@@ -15,13 +15,12 @@ class Education extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="lighthouse-labs"
-                href="https://lighthouselabs.ca/"
-                target="_blank"
+               href="https://lighthouselabs.ca/"
+               target="_blank"
             >
-              <img
-                src={lighthouseLabs}
-                className="rounded mx-auto d-block"
-                alt="Lighthouse Labs"
+              <img src={lighthouseLabs}
+                   className="rounded mx-auto d-block"
+                   alt="Lighthouse Labs"
               >
               </img>
             </a>
@@ -43,13 +42,12 @@ class Education extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="university-of-waterloo"
-                href="https://uwaterloo.ca/"
-                target="_blank"
+               href="https://uwaterloo.ca/"
+               target="_blank"
             >
-              <img
-                src={universityOfWaterloo}
-                className="rounded mx-auto d-block"
-                alt="University of Waterloo"
+              <img src={universityOfWaterloo}
+                   className="rounded mx-auto d-block"
+                   alt="University of Waterloo"
               >
               </img>
             </a>

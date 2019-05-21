@@ -17,8 +17,8 @@ class Employment extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="abc"
-                href="http://abctechnologies.com/"
-                target="_blank"
+               href="http://abctechnologies.com/"
+               target="_blank"
             >
               <img
                 src={abc}
@@ -57,13 +57,12 @@ class Employment extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="ford"
-                href="https://www.ford.com/"
-                target="_blank"
+               href="https://www.ford.com/"
+               target="_blank"
             >
-              <img
-                src={ford}
-                className="rounded mx-auto d-block"
-                alt="Ford Motor Company"
+              <img src={ford}
+                   className="rounded mx-auto d-block"
+                   alt="Ford Motor Company"
               >
               </img>
             </a>
@@ -97,13 +96,12 @@ class Employment extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="wilbert"
-                href="https://wilbertplastics.com/"
-                target="_blank"
+               href="https://wilbertplastics.com/"
+               target="_blank"
             >
-              <img
-                src={wilbert}
-                className="rounded mx-auto d-block"
-                alt="Wilbert Plastic Services"
+              <img src={wilbert}
+                   className="rounded mx-auto d-block"
+                   alt="Wilbert Plastic Services"
               >
               </img>
             </a>
@@ -134,13 +132,12 @@ class Employment extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="magna"
-                href="https://www.magna.com/"
-                target="_blank"
+               href="https://www.magna.com/"
+               target="_blank"
             >
-              <img
-                src={magna}
-                className="rounded mx-auto d-block"
-                alt="Magna Exteriors and Interiors: Plastcoat"
+              <img src={magna}
+                   className="rounded mx-auto d-block"
+                   alt="Magna Exteriors and Interiors: Plastcoat"
               >
               </img>
             </a>
@@ -171,13 +168,12 @@ class Employment extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="magna"
-                href="https://www.magna.com/"
-                target="_blank"
+               href="https://www.magna.com/"
+               target="_blank"
             >
-              <img
-                src={magna}
-                className="rounded mx-auto d-block"
-                alt="Magna Closures"
+              <img src={magna}
+                   className="rounded mx-auto d-block"
+                   alt="Magna Closures"
               >
               </img>
             </a>
@@ -208,13 +204,12 @@ class Employment extends Component {
         <div className="form-row">
           <div className="form-group col-md-4">
             <a className="magna"
-                href="https://www.magna.com/"
-                target="_blank"
+               href="https://www.magna.com/"
+               target="_blank"
             >
-              <img
-                src={magna}
-                className="rounded mx-auto d-block"
-                alt="Cosma International: Promatek Research Centre (Magna)"
+              <img src={magna}
+                   className="rounded mx-auto d-block"
+                   alt="Cosma International: Promatek Research Centre (Magna)"
               >
               </img>
             </a>

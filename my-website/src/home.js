@@ -10,43 +10,43 @@ class Home extends Component {
             <a className="navbar-brand" href="/">RYOTA MINE</a>
             <div className="linkedin">
               <a className="nav-link" 
-                href="https://www.linkedin.com/in/ryotamine" 
-                target="_blank"
+                 href="https://www.linkedin.com/in/ryotamine" 
+                 target="_blank"
               >
                 <i className="fab fa-linkedin fa-2x" 
-                  alt="Ryota Mine LinkedIn"
+                   alt="Ryota Mine LinkedIn"
                 >
                 </i>
               </a>
             </div>
             <div className="github">
               <a className="nav-link" 
-                href="https://github.com/ryotamine" 
-                target="_blank"
+                 href="https://github.com/ryotamine" 
+                 target="_blank"
               >
                 <i className="fab fa-github-square fa-2x" 
-                  alt="Ryota Mine GitHub"
+                   alt="Ryota Mine GitHub"
                 >
                 </i>
               </a>
             </div>
             <div className="twitter">
               <a className="nav-link" 
-                href="https://twitter.com/ryotamine" 
-                target="_blank"
+                 href="https://twitter.com/ryotamine" 
+                 target="_blank"
               >
                 <i className="fab fa-twitter-square fa-2x" 
-                  alt="Ryota Mine Twitter"
+                   alt="Ryota Mine Twitter"
                 >
                 </i>
               </a>
             </div>
             <div className="gmail">
               <a className="nav-link" 
-                href="mailto:ryotamine@gmail.com"
+                 href="mailto:ryotamine@gmail.com"
               >
                 <i className="fas fa-envelope-square fa-2x" 
-                  alt="Ryota Mine Gmail"
+                   alt="Ryota Mine Gmail"
                 >
                 </i>
               </a>

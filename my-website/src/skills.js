@@ -24,100 +24,88 @@ class Skills extends Component {
         </div>
         <div className="form-row">
           <div className="form-group col-md-2">
-            <img
-              src={html}
-              className="rounded mx-auto d-block"
-              alt="HTML"
+            <img src={html}
+                 className="rounded mx-auto d-block"
+                 alt="HTML"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={css}
-              className="rounded mx-auto d-block"
-              alt="CSS"
+            <img src={css}
+                 className="rounded mx-auto d-block"
+                 alt="CSS"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={javaScript}
-              className="rounded mx-auto d-block"
-              alt="JavaScript"
+            <img src={javaScript}
+                 className="rounded mx-auto d-block"
+                 alt="JavaScript"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={ruby}
-              className="rounded mx-auto d-block"
-              alt="Ruby"
+            <img src={ruby}
+                 className="rounded mx-auto d-block"
+                 alt="Ruby"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={express}
-              className="rounded mx-auto d-block"
-              alt="Express"
+            <img src={express}
+                 className="rounded mx-auto d-block"
+                 alt="Express"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={jQuery}
-              className="rounded mx-auto d-block"
-              alt="jQuery"
+            <img src={jQuery}
+                 className="rounded mx-auto d-block"
+                 alt="jQuery"
             >
             </img>
           </div>
         </div>
         <div className="form-row">
           <div className="form-group col-md-2">
-            <img
-              src={react}
-              className="rounded mx-auto d-block"
-              alt="React"
+            <img src={react}
+                 className="rounded mx-auto d-block"
+                 alt="React"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={rubyOnRails}
-              className="rounded mx-auto d-block"
-              alt="Ruby On Rails"
+            <img src={rubyOnRails}
+                 className="rounded mx-auto d-block"
+                 alt="Ruby On Rails"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={mongoDb}
-              className="rounded mx-auto d-block"
-              alt="MongoDB"
+            <img src={mongoDb}
+                 className="rounded mx-auto d-block"
+                 alt="MongoDB"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={sql}
-              className="rounded mx-auto d-block"
-              alt="SQL"
+            <img src={sql}
+                 className="rounded mx-auto d-block"
+                 alt="SQL"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={gitAndGithub}
-              className="rounded mx-auto d-block"
-              alt="Git and GitHub"
+            <img src={gitAndGithub}
+                 className="rounded mx-auto d-block"
+                 alt="Git and GitHub"
             >
             </img>
           </div>
           <div className="form-group col-md-2">
-            <img
-              src={node}
-              className="rounded mx-auto d-block"
-              alt="Node"
+            <img src={node}
+                 className="rounded mx-auto d-block"
+                 alt="Node"
             >
             </img>
           </div>
