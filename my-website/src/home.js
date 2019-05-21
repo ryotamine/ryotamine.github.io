@@ -52,11 +52,11 @@ class Home extends Component {
               </a>
             </div>
           </form>
-          <a className="nav-link" href="#profile">PROFILE</a>
-          <a className="nav-link" href="#education">EDUCATION</a>
-          <a className="nav-link" href="#skills">SKILLS</a>
-          <a className="nav-link" href="#projects">PROJECTS</a>
-          <a className="nav-link" href="#employment">EMPLOYMENT</a>
+          <a className="section" href="#profile">PROFILE</a>
+          <a className="section" href="#education">EDUCATION</a>
+          <a className="section" href="#skills">SKILLS</a>
+          <a className="section" href="#projects">PROJECTS</a>
+          <a className="section" href="#employment">EMPLOYMENT</a>
         </nav>
       </div>
     );

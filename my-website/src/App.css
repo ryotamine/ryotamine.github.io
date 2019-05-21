@@ -17,8 +17,14 @@
   color: black;
 }
 
-.navbar-brand:hover, .nav-link:hover {
+.section {
+  padding-right: 10px;
+  color: black;
+}
+
+.navbar-brand:hover, .nav-link:hover, .section:hover {
   color: grey;
+  text-decoration: none;
 }
 
 .linkedin, .github, .twitter, .gmail {
@@ -67,14 +73,6 @@ img {
 .lighthouse-labs:hover, .university-of-waterloo:hover {
   color: black;
   text-decoration: none;
-}
-
-@media screen and (max-width: 900px) {
-  .App-header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 }
 
 @media screen and (max-width: 767px) {
