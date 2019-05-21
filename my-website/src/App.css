@@ -75,7 +75,10 @@ img {
 .chatty-app,
 .schoodle,
 .tiny-app,
-.abc-group {
+.abc,
+.ford,
+.wilbert,
+.magna {
   color: black;
 }
 
@@ -86,7 +89,10 @@ img {
 .chatty-app:hover,
 .schoodle:hover,
 .tiny-app:hover,
-.abc-group:hover {
+.abc:hover,
+.ford:hover,
+.wilbert:hover,
+.magna:hover {
   color: black;
   text-decoration: none;
 }
