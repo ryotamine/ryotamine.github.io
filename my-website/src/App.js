@@ -12,10 +12,11 @@ class App extends Component {
   // Render entire page
   render() {
     return (
-      <div className="App" 
-           data-spy="scroll" 
-           data-target=".navbar" 
-           data-offset="50"
+      <div 
+        className="App" 
+        data-spy="scroll" 
+        data-target=".navbar" 
+        data-offset="50"
       >
         <Navbar />
         <MainPicture />

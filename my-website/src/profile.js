@@ -13,9 +13,10 @@ class Profile extends Component {
         </div>
         <div className="form-row">
           <div className="form-group col-md-4">
-            <img src={profilePicture}
-                 className="rounded mx-auto d-block"
-                 alt="Ryota Mine"
+            <img 
+              src={profilePicture}
+              className="rounded mx-auto d-block"
+              alt="Ryota Mine"
             >
             </img>
           </div>
