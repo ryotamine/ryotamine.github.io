@@ -14,7 +14,7 @@ class Navbar extends Component {
         <nav className="navbar fixed-top">
           <form className="form-inline">
             <a 
-              className="navbar-brand" href="/"
+              className="navbar-brand"
               onClick={this.scrollToTop}
             >
               RYOTA MINE
