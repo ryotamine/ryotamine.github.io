@@ -1,13 +1,24 @@
 import React, { Component } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Navbar extends Component {
+  // Scroll to top of home page
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   // Render home page
   render() {
     return (
       <div className="App-header">
         <nav className="navbar fixed-top">
           <form className="form-inline">
-            <a className="navbar-brand" href="/">RYOTA MINE</a>
+            <a 
+              className="navbar-brand" href="/"
+              onClick={this.scrollToTop}
+            >
+              RYOTA MINE
+            </a>
             <div className="linkedin">
               <a className="nav-link" 
                  href="https://www.linkedin.com/in/ryotamine" 
@@ -52,11 +63,66 @@ class Navbar extends Component {
               </a>
             </div>
           </form>
-          <a className="section" href="#profile">PROFILE</a>
-          <a className="section" href="#education">EDUCATION</a>
-          <a className="section" href="#skills">SKILLS</a>
-          <a className="section" href="#projects">PROJECTS</a>
-          <a className="section" href="#employment">EMPLOYMENT</a>
+          <div className="section">
+            <Link
+              activeClass="active"
+              to="profile"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            > 
+              PROFILE
+            </Link>
+          </div>
+          <div className="section">
+            <Link
+              activeClass="active"
+              to="education"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            > 
+              EDUCATION
+            </Link>
+          </div>
+          <div className="section">
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            > 
+              SKILLS
+            </Link>
+          </div>
+          <div className="section">
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            > 
+              PROJECTS
+            </Link>
+          </div>
+          <div className="section">
+            <Link
+              activeClass="active"
+              to="employment"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            > 
+              EMPLOYMENT
+            </Link>
+          </div>
         </nav>
       </div>
     );

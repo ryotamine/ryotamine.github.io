@@ -30,6 +30,7 @@ body {
 
 .navbar-brand:hover, .nav-link:hover, .section:hover {
   color: grey;
+  cursor: pointer;
   text-decoration: none;
 }
 
