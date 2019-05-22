@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Home extends Component {
+class Navbar extends Component {
   // Render home page
   render() {
     return (
@@ -63,4 +63,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Navbar;

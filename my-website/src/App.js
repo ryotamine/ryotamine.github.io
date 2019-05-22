@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Home from "./home.js";
+import Navbar from "./navbar.js";
 import MainPicture from "./main-picture.js";
 import Profile from "./profile.js";
 import Education from "./education.js";
@@ -17,7 +17,7 @@ class App extends Component {
            data-target=".navbar" 
            data-offset="50"
       >
-        <Home />
+        <Navbar />
         <MainPicture />
         <Profile />
         <Education />
