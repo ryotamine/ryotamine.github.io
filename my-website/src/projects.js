@@ -32,19 +32,15 @@ class Projects extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>Surfparrot</h3>
-            <p>
-              May 2019
-              <br></br>
-              <ul>
-                <li>
-                  Generated full-stack live-music event listing preview using React, Node, Express, PostgreSQL, Axios, and Spotify API in 96 hours
-                </li>
-                <li>
-                  Considered UI/UX adequately to meet intuitive use
-                </li>
-              </ul>
-            </p>
-            <br></br>
+            May 2019
+            <ul>
+              <li>
+                Generated full-stack live-music event listing preview using React, Node, Express, PostgreSQL, Axios, and Spotify API in 96 hours
+              </li>
+              <li>
+                Considered UI/UX adequately to meet intuitive use
+              </li>
+            </ul>
           </div>
         </div>
         <div className="form-row">
@@ -64,19 +60,15 @@ class Projects extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>Jungle</h3>
-            <p>
-              Apr 2019
-              <br></br>
-              <ul>
-                <li>
-                  Updated full-stack e-commerce application using Ruby on Rails in 24 hours
-                </li>
-                <li>
-                  Navigated through MVC accordingly to meet user needs
-                </li>
-              </ul>
-            </p>
-            <br></br>
+            Apr 2019
+            <ul>
+              <li>
+                Updated full-stack e-commerce application using Ruby on Rails in 24 hours
+              </li>
+              <li>
+                Navigated through MVC accordingly to meet user needs
+              </li>
+            </ul>
           </div>
         </div>
         <div className="form-row">
@@ -96,19 +88,15 @@ class Projects extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>Chatty App</h3>
-            <p>
-              Apr 2019
-              <br></br>
-              <ul>
-                <li>
-                  Implemented full-stack online chat using React in 24 hours
-                </li>
-                <li>
-                  Applied WebPack and Express deliberately for bi-directional communication
-                </li>
-              </ul>
-            </p>
-            <br></br>
+            Apr 2019
+            <ul>
+              <li>
+                Implemented full-stack online chat using React in 24 hours
+              </li>
+              <li>
+                Applied WebPack and Express deliberately for bi-directional communication
+              </li>
+            </ul>
           </div>
         </div>
         <div className="form-row">
@@ -128,19 +116,15 @@ class Projects extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>Schoodle</h3>
-            <p>
-              Apr 2019
-              <br></br>
-              <ul>
-                <li>
-                  Produced full-stack event scheduler using HTML, CSS, JavaScript, jQuery, AJAX, Node, Express, SQL, and Knex in 48 hours
-                </li>
-                <li>
-                  Managed front-end, back-end, and database tasks consistently from start to finish
-                </li>
-              </ul>
-            </p>
-            <br></br>
+            Apr 2019
+            <ul>
+              <li>
+                Produced full-stack event scheduler using HTML, CSS, JavaScript, jQuery, AJAX, Node, Express, SQL, and Knex in 48 hours
+              </li>
+              <li>
+                Managed front-end, back-end, and database tasks consistently from start to finish
+              </li>
+            </ul>
           </div>
         </div>
         <div className="form-row">
@@ -160,19 +144,15 @@ class Projects extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>TinyApp</h3>
-            <p>
-              Mar 2019
-              <br></br>
-              <ul>
-                <li>
-                  Created full-stack URL shortener using JavaScript, Node, and Express in 24 hours
-                </li>
-                <li>
-                  Debugged code sufficiently to meet altering needs
-                </li>
-              </ul>
-            </p>
-            <br></br>
+            Mar 2019
+            <ul>
+              <li>
+                Created full-stack URL shortener using JavaScript, Node, and Express in 24 hours
+              </li>
+              <li>
+                Debugged code sufficiently to meet altering needs
+              </li>
+            </ul>
           </div>
         </div>
       </div>

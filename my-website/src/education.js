@@ -29,16 +29,13 @@ class Education extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>Lighthouse Labs</h3>
-            <p>
-              <strong>
-                Diploma, Web Development
-              </strong>
-              <br></br>
-              Mar - May 2019
-              <br></br>
-              Toronto, Ontario, Canada
-            </p>
+            <strong>
+              Diploma, Web Development
+            </strong>
             <br></br>
+            Mar - May 2019
+            <br></br>
+            Toronto, Ontario, Canada
           </div>
         </div>
         <div className="form-row">
@@ -58,16 +55,13 @@ class Education extends Component {
           </div>
           <div className="form-group col-md-8">
             <h3>University of Waterloo</h3>
-            <p>
-              <strong>
-                Bachelor of Applied Science, Honours Mechanical Engineering Co-op
-              </strong>
-              <br></br>
-              2013
-              <br></br>
-              Waterloo, Ontario, Canada
-            </p>
+            <strong>
+              Bachelor of Applied Science, Honours Mechanical Engineering Co-op
+            </strong>
             <br></br>
+            2013
+            <br></br>
+            Waterloo, Ontario, Canada
           </div>
         </div>
       </div>
