@@ -1,0 +1,117 @@
+body {
+  position: relative;
+}
+
+.App-header {
+  height: 50px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: #92e585;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.linkedin, .github, .twitter, .gmail {
+  padding-right: 12px;
+}
+
+.navbar-brand, .nav-link {
+  padding: 0px;
+}
+
+.section {
+  padding-right: 10px;
+}
+
+.navbar-brand, .nav-link, .section {
+  color: black;
+}
+
+.navbar-brand:hover, .nav-link:hover, .section:hover {
+  color: grey;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+.main-picture {
+  background-image: url("../docs/toronto.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.headline {
+  text-align: center;
+}
+
+hr {
+  margin: 40px 0px;
+}
+
+img {
+  position:relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#profile, #skills, #employment {
+  background-color: #f3efe0;
+  padding: 50px;
+}
+
+#education, #projects {
+  background-color: #eee;
+  padding: 50px;
+}
+
+.lighthouse-labs, 
+.university-of-waterloo, 
+.surfparrot,
+.jungle,
+.chatty-app,
+.schoodle,
+.tiny-app,
+.abc,
+.ford,
+.wilbert,
+.magna {
+  color: black;
+}
+
+.lighthouse-labs:hover, 
+.university-of-waterloo:hover, 
+.surfparrot:hover,
+.jungle:hover,
+.chatty-app:hover,
+.schoodle:hover,
+.tiny-app:hover,
+.abc:hover,
+.ford:hover,
+.wilbert:hover,
+.magna:hover {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .responsive {
+    text-align: center;
+  }
+}
