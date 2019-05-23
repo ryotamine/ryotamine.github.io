@@ -5,10 +5,10 @@ After Web Development Bootcamp at Lighthouse Labs, I applied my skills to update
 ## Final Product
 
 Before
-!["Screenshot of website - before"](https://github.com/ryotamine/ryotamine.github.io/tree/master/docs/website-before.png)
+!["Screenshot of website - before"](https://github.com/ryotamine/ryotamine.github.io/blob/master/docs/website-before.png)
 
 After
-!["Screenshot of website - after"](https://github.com/ryotamine/ryotamine.github.io/tree/master/docs/website-after.png)
+!["Screenshot of website - after"](https://github.com/ryotamine/ryotamine.github.io/blob/master/docs/website-after.png)
 
 ### Dependencies
 
