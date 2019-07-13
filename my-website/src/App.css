@@ -77,35 +77,6 @@ img {
   padding: 50px;
 }
 
-.lighthouse-labs, 
-.university-of-waterloo, 
-.surfparrot,
-.jungle,
-.chatty-app,
-.schoodle,
-.tiny-app,
-.abc,
-.ford,
-.wilbert,
-.magna {
-  color: black;
-}
-
-.lighthouse-labs:hover, 
-.university-of-waterloo:hover, 
-.surfparrot:hover,
-.jungle:hover,
-.chatty-app:hover,
-.schoodle:hover,
-.tiny-app:hover,
-.abc:hover,
-.ford:hover,
-.wilbert:hover,
-.magna:hover {
-  color: black;
-  text-decoration: none;
-}
-
 ul {
   padding-left: 15px;
 }
