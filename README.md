@@ -23,3 +23,4 @@ After
 - React
 - Bootstrap
 - react-scroll
+- gh-pages
