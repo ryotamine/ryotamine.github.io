@@ -4,6 +4,7 @@
 }
 
 .lighthouse-labs,
+.skills-image,
 .university-of-waterloo {
   border-radius: 50%;
   height: auto;
@@ -14,6 +15,13 @@
 
 /* Remove default styling on columns */
 .col-lg-4 {
+  text-align: center;
+}
+
+.col-xl-2,
+.col-md-4,
+.col-sm-6 {
+  padding: 16px !important;
   text-align: center;
 }
 
@@ -143,6 +151,12 @@ hr {
   font-weight: 700;
 }
 
+/* Skills name */
+.skills-name {
+  font-weight: 900;
+  margin-top: 8px;
+}
+
 /* Title */
 .title {
   font-size: 24px;
@@ -199,7 +213,8 @@ ul {
   }
 
   #education,
-  #profile {
+  #profile,
+  #skills {
     padding: 70px 24px;
     text-align: center;
   }
