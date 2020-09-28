@@ -41,17 +41,47 @@
   cursor: pointer;
 }
 
-/* Navbar section */
-.navbar-section {
-  color: black;
-  padding: 0px 16px;
+/* Navbar responsive */
+.navbar-responsive {
+  align-items: center;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  bottom: 0px;
+  display: flex;
+  height: 70px;
+  justify-content: space-around;
+  left: 0px;
+  padding: 16px 12px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navbar responsive section */
+.navbar-responsive-section {
+  color: #000;
+  padding: 0px 4px;
 }
 
 /* Navbar section hover */
+.navbar-responsive-section:hover,
 .navbar-section:hover {
   color: #707070;
   cursor: pointer;
   text-decoration: none;
+}
+
+/* Navbar responsive section name */
+.navbar-responsive-section-name {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* Navbar section */
+.navbar-section {
+  color: #000;
+  padding: 0px 16px;
 }
 
 /* Navbar spacing */
@@ -100,6 +130,21 @@ img {
 
 ul {
   padding-left: 15px;
+}
+
+/* Responsive design at min width 992px */
+@media screen and (min-width: 992px) {
+  .navbar-responsive {
+    display: none;
+  }
+}
+
+/* Responsive design at max width 991px */
+@media screen and (max-width: 991px) {
+  .navbar,
+  .navbar-effect {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {

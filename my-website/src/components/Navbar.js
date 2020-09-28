@@ -10,7 +10,6 @@ const Navbar = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    // Mount Navbar styling effect
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY < window.innerHeight - 70;
 
@@ -21,7 +20,6 @@ const Navbar = () => {
       }
     });
 
-    // Unmount Navbar styling effect at scroll
     window.removeEventListener("scroll", () => {});
   }, []);
 
@@ -30,147 +28,68 @@ const Navbar = () => {
     <div id="landing-page">
       <nav className={navbarEffect ? "navbar-effect" : "navbar"}>
         <div className="navbar-logo">
-          <Link
-            activeClass="active"
-            to="landing-page"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={0}
-          > 
-            RYOTA MINE
-          </Link>
+          <Link to="landing-page">RYOTA MINE</Link>
         </div>
 
         <div className="navbar-spacing" />
 
-        {/* <div className="linkedin">
-          <a 
-            className="nav-link" 
-            href="https://www.linkedin.com/in/ryotamine" 
-            target="_blank"
-          >
-            <i 
-              className="fab fa-linkedin fa-2x" 
-              alt="Ryota Mine LinkedIn"
-            >
-            </i>
-          </a>
-        </div>
-        <div className="github">
-          <a 
-            className="nav-link" 
-            href="https://github.com/ryotamine" 
-            target="_blank"
-          >
-            <i 
-              className="fab fa-github-square fa-2x" 
-              alt="Ryota Mine GitHub"
-            >
-            </i>
-          </a>
-        </div>
-        <div className="twitter">
-          <a 
-            className="nav-link" 
-            href="https://twitter.com/ryotamine" 
-            target="_blank"
-          >
-            <i 
-              className="fab fa-twitter-square fa-2x" 
-              alt="Ryota Mine Twitter"
-            >
-            </i>
-          </a>
-        </div>
-        <div className="gmail">
-          <a 
-            className="nav-link" 
-            href="mailto:ryotamine@gmail.com"
-          >
-            <i 
-              className="fas fa-envelope-square fa-2x" 
-              alt="Ryota Mine Gmail"
-            >
-            </i>
-          </a>
-        </div> */}
-
         <div className="navbar-section">
-          <Link
-            activeClass="active"
-            to="profile"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={0}
-          > 
+          <Link activeClass="active" to="profile" spy={true} offset={-70}>
             PROFILE
           </Link>
         </div>
         <div className="navbar-section">
-          <Link
-            activeClass="active"
-            to="education"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={0}
-          > 
+          <Link activeClass="active" to="education" spy={true} offset={-70}>
             EDUCATION
           </Link>
         </div>
         <div className="navbar-section">
-          <Link
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={0}
-          > 
+          <Link activeClass="active" to="skills" spy={true} offset={-70}>
             SKILLS
           </Link>
         </div>
         <div className="navbar-section">
-          <Link
-            activeClass="active"
-            to="employment"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={0}
-          > 
+          <Link activeClass="active" to="employment" spy={true} offset={-70}>
             EMPLOYMENT
           </Link>
         </div>
         <div className="navbar-section">
-          <Link
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={0}
-          > 
+          <Link activeClass="active" to="projects" spy={true} offset={-70}>
             PROJECTS
           </Link>
         </div>
-        <div className="navbar-section">
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={0}
-          > 
-            CONTACT
+      </nav>
+
+      {/* Responsive Design */}
+      <nav className="navbar-responsive">
+        <div className="navbar-responsive-section">
+          <Link to="profile" className="fas fa-user">
+            <div className="navbar-responsive-section-name">Profile</div>
+          </Link>
+        </div>
+        <div className="navbar-responsive-section">
+          <Link to="education" className="fas fa-graduation-cap">
+            <div className="navbar-responsive-section-name">Education</div>
+          </Link>
+        </div>
+        <div className="navbar-responsive-section">
+          <Link to="skills" className="fas fa-tools">
+            <div className="navbar-responsive-section-name">Skills</div>
+          </Link>
+        </div>
+        <div className="navbar-responsive-section">
+          <Link to="employment" className="fas fa-briefcase">
+            <div className="navbar-responsive-section-name">Employment</div>
+          </Link>
+        </div>
+        <div className="navbar-responsive-section">
+          <Link to="projects" className="fas fa-project-diagram">
+            <div className="navbar-responsive-section-name">Projects</div>
           </Link>
         </div>
       </nav>
     </div>
   );
-}
+};
 
 export default Navbar;
