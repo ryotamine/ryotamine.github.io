@@ -3,6 +3,7 @@
   border-bottom: 1px solid #000;
 }
 
+.employment-image,
 .lighthouse-labs,
 .skills-image,
 .university-of-waterloo {
@@ -184,18 +185,19 @@ hr {
   border-radius: 5px;
 } */
 
-#profile, #skills, #employment {
+#profile, #projects, #skills  {
   background-color: #f3efe0;
   padding: 70px;
 }
 
-#education, #projects {
+#education, #employment {
   background-color: #eee;
   padding: 70px;
 }
 
+/* Unlisted order */
 ul {
-  padding-left: 15px;
+  padding-left: 16px;
 }
 
 /* Responsive design at min width 992px */
@@ -213,6 +215,7 @@ ul {
   }
 
   #education,
+  #employment,
   #profile,
   #skills {
     padding: 70px 24px;
