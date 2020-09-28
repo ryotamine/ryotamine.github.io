@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import tidylist from "../docs/tidylist.png";
-import personalWebsite from "../docs/personal-website.png";
-import matrixurl from "../docs/matrixurl.png";
-import surfparrot from "../docs/surfparrot.png";
-import schoodle from "../docs/schoodle.png";
+import tidylist from "../../docs/tidylist.png";
+import personalWebsite from "../../docs/personal-website.png";
+import matrixurl from "../../docs/matrixurl.png";
+import surfparrot from "../../docs/surfparrot.png";
+import schoodle from "../../docs/schoodle.png";
 
 class Projects extends Component {
   // Render projects page

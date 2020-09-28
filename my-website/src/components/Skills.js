@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import html from "../docs/html.png";
-import css from "../docs/css.png";
-import javaScript from "../docs/javascript.png";
-import ruby from "../docs/ruby.png";
-import express from "../docs/express.png";
-import jQuery from "../docs/jquery.png";
-import react from "../docs/react.png";
-import rubyOnRails from "../docs/ruby-on-rails.png";
-import mongoDb from "../docs/mongo-db.png";
-import sql from "../docs/sql.png";
-import gitAndGithub from "../docs/git-and-github.png";
-import node from "../docs/node.png";
+import html from "../../docs/html.png";
+import css from "../../docs/css.png";
+import javaScript from "../../docs/javascript.png";
+import ruby from "../../docs/ruby.png";
+import express from "../../docs/express.png";
+import jQuery from "../../docs/jquery.png";
+import react from "../../docs/react.png";
+import rubyOnRails from "../../docs/ruby-on-rails.png";
+import mongoDb from "../../docs/mongo-db.png";
+import sql from "../../docs/sql.png";
+import gitAndGithub from "../../docs/git-and-github.png";
+import node from "../../docs/node.png";
 
 class Skills extends Component {
   // Render skills page

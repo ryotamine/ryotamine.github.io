@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import abc from "../docs/abc.png";
-import ford from "../docs/ford.png";
-import wilbert from "../docs/wilbert.png";
-import magna from "../docs/magna.png";
+import abc from "../../docs/abc.png";
+import ford from "../../docs/ford.png";
+import wilbert from "../../docs/wilbert.png";
+import magna from "../../docs/magna.png";
 
 class Employment extends Component {
   // Render employment page

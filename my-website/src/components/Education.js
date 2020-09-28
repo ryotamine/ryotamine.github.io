@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import lighthouseLabs from "../docs/lighthouse-labs.png";
-import universityOfWaterloo from "../docs/university-of-waterloo.png";
+import lighthouseLabs from "../../docs/lighthouse-labs.png";
+import universityOfWaterloo from "../../docs/university-of-waterloo.png";
 
 class Education extends Component {
   // Render education page

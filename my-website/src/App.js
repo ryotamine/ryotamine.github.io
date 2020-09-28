@@ -1,28 +1,29 @@
-import React, { Component } from "react";
-import Navbar from "./navbar.js";
-import MainPicture from "./main-picture.js";
-import Profile from "./profile.js";
-import Education from "./education.js";
-import Skills from "./skills.js";
-import Projects from "./projects.js";
-import Employment from "./employment.js";
+// Libraries
+import React from "react";
+
+// Components
+import Navbar from "./components/Navbar";
+import MainPicture from "./components/MainPicture";
+import Profile from "./components/Profile";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Employment from "./components/Employment";
+import Projects from "./components/Projects";
+
+// Styling
 import "./App.css";
 
-class App extends Component {
-  // Render entire page
-  render() {
-    return (
-      <div className="App">
-        <Navbar />
-        <MainPicture />
-        <Profile />
-        <Education />
-        <Skills />
-        <Projects />
-        <Employment />
-      </div>
-    );
-  }
-}
+// Render Personal Website
+const App = () => (
+  <div>
+    <Navbar />
+    <MainPicture />
+    <Profile />
+    <Education />
+    <Skills />
+    <Employment />
+    <Projects />
+  </div>
+);
 
 export default App;

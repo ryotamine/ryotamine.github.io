@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profilePicture from "../docs/ryota-mine.png";
+import profilePicture from "../../docs/ryota-mine.png";
 
 class Profile extends Component {
   // Render profile page
