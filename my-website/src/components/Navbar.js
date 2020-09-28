@@ -28,7 +28,7 @@ const Navbar = () => {
     <div id="landing-page">
       <nav className={navbarEffect ? "navbar-effect" : "navbar"}>
         <div className="navbar-logo">
-          <Link to="landing-page">RYOTA MINE</Link>
+          <Link to="landing-page">RM</Link>
         </div>
 
         <div className="navbar-spacing" />
@@ -57,6 +57,37 @@ const Navbar = () => {
           <Link activeClass="active" to="projects" spy={true} offset={-70}>
             PROJECTS
           </Link>
+        </div>
+
+        <div className="social-media-section">
+          <a
+            href="https://www.linkedin.com/in/ryotamine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fab fa-linkedin fa-2x social-media-icon"
+          ></a>
+        </div>
+        <div className="social-media-section">
+          <a
+            href="https://github.com/ryotamine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fab fa-github-square fa-2x social-media-icon"
+          ></a>
+        </div>
+        <div className="social-media-section">
+          <a
+            href="https://twitter.com/ryotamine"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="fab fa-twitter-square fa-2x social-media-icon"
+          ></a>
+        </div>
+        <div className="social-media-section">
+          <a
+            href="mailto:ryotamine@gmail.com"
+            className="fas fa-envelope-square fa-2x social-media-icon"
+          ></a>
         </div>
       </nav>
 
