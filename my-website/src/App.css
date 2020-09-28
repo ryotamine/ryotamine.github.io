@@ -1,45 +1,66 @@
-body {
-  position: relative;
+/* Navbar section underline */
+.active {
+  border-bottom: 1px solid #000;
 }
 
-.App-header {
-  height: 50px;
-  padding: 10px;
-}
-
+/* Navbar */
 .navbar {
-  background-color: #92e585;
+  background-color: transparent;
 }
 
-.navbar-brand {
+/* Navbar and navbar effect */
+.navbar,
+.navbar-effect {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  left: 0px;
+  padding: 16px 54px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navbar effect */
+.navbar-effect {
+  background-color: #fff;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Navbar logo */
+.navbar-logo {
+  color: #000;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 700;
+  padding: 0px 16px;
 }
 
-.linkedin, .github, .twitter, .gmail {
-  padding-right: 12px;
+/* Navbar logo hover */
+.navbar-logo:hover {
+  cursor: pointer;
 }
 
-.navbar-brand, .nav-link {
-  padding: 0px;
-}
-
-.section {
-  padding-right: 10px;
-}
-
-.navbar-brand, .nav-link, .section {
+/* Navbar section */
+.navbar-section {
   color: black;
+  padding: 0px 16px;
 }
 
-.navbar-brand:hover, .nav-link:hover, .section:hover {
-  color: grey;
+/* Navbar section hover */
+.navbar-section:hover {
+  color: #707070;
   cursor: pointer;
   text-decoration: none;
 }
 
-.active {
-  border-bottom: 1px solid black;
+/* Navbar spacing */
+.navbar-spacing {
+  flex: 1;
+}
+
+.linkedin, .github, .twitter, .gmail {
+  padding-right: 12px;
 }
 
 .main-picture {
