@@ -3,7 +3,20 @@
   border-bottom: 1px solid #000;
 }
 
+.lighthouse-labs,
+.university-of-waterloo {
+  border-radius: 50%;
+  height: auto;
+  max-height: 150px;
+  max-width: 150px;
+  width: 100%;
+}
+
 /* Remove default styling on columns */
+.col-lg-4 {
+  text-align: center;
+}
+
 .col-lg-4,
 .col-lg-8 {
   padding: 0px 16px !important;
@@ -185,13 +198,14 @@ ul {
     padding: 0px !important;
   }
 
-  .navbar,
-  .navbar-effect {
-    display: none;
-  }
-
+  #education,
   #profile {
     padding: 70px 24px;
     text-align: center;
+  }
+
+  .navbar,
+  .navbar-effect {
+    display: none;
   }
 }
