@@ -1,6 +1,6 @@
 {
-  "name": "my-website",
-  "version": "0.4.0",
+  "name": "ryota-mine-website",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://www.ryotamine.com",
   "dependencies": {
