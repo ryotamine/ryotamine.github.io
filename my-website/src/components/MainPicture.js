@@ -1,13 +1,9 @@
-import React, { Component } from "react";
+// Libraries
+import React from "react";
 
-class MainPicture extends Component {
-  // Render home page picture
-  render() {
-    return (
-      <div className="main-picture">
-      </div>
-    );
-  }
-}
+const MainPicture = () => (
+  // Render Landing Page Main Picture
+  <div className="main-picture" />
+);
 
 export default MainPicture;

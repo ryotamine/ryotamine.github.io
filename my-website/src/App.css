@@ -57,14 +57,17 @@ hr {
 /* Main picture */
 .main-picture {
   background-image: url("../docs/toronto.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
   height: 100vh;
+  object-fit: cover;
+  width: 100vw;
 }
 
 /* Navbar */
 .navbar {
-  background-color: transparent;
+  background-color: #fff;
 }
 
 /* Navbar and navbar effect */
@@ -83,7 +86,7 @@ hr {
 
 /* Navbar effect */
 .navbar-effect {
-  background-color: #fff;
+  background-color: #92e585;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
 }
 
@@ -103,7 +106,7 @@ hr {
 /* Navbar responsive */
 .navbar-responsive {
   align-items: center;
-  background-color: #fff;
+  background-color: #92e585;
   border-top: 1px solid #ccc;
   bottom: 0px;
   display: flex;
