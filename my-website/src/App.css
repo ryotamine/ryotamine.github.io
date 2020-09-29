@@ -113,7 +113,7 @@ hr {
   height: 70px;
   justify-content: space-around;
   left: 0px;
-  padding: 16px 12px;
+  padding: 16px;
   position: fixed;
   text-align: center;
   width: 100%;
@@ -126,9 +126,10 @@ hr {
   padding: 0px 4px;
 }
 
-/* Navbar section hover */
+/* Navbar and social media section hover */
 .navbar-responsive-section:hover,
-.navbar-section:hover {
+.navbar-section:hover,
+.social-media-icon:hover {
   color: #707070;
   cursor: pointer;
   text-decoration: none;
@@ -136,7 +137,8 @@ hr {
 
 /* Navbar responsive section name */
 .navbar-responsive-section-name {
-  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
   margin-top: 4px;
 }
 
@@ -186,8 +188,7 @@ hr {
 }
 
 /* Social media icon */
-.social-media-icon,
-.social-media-icon:hover {
+.social-media-icon {
   color: #000;
 }
 
@@ -233,7 +234,7 @@ ul {
 
   .navbar,
   .navbar-effect {
-    padding: 16px 12px;
+    padding: 16px;
   }
 
   .navbar-section {

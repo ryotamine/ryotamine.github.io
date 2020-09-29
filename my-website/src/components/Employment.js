@@ -209,14 +209,14 @@ const Employment = () => {
           >
             <img
               src={magna}
-              alt="Magna Exteriors and Interiors: Plastcoat"
+              alt="Magna International"
               onLoad={() => setLoad(true)}
               className={load ? "employment-image" : "loading-image"}
             />
           </a>
         </div>
         <div className="mb-3 col-lg-8">
-          <div className="title">Magna Exteriors and Interiors: Plastcoat</div>
+          <div className="title">Magna International</div>
           <strong>Research and Development Engineering Co-op</strong>
           <div>Aug - Dec 2011</div>
           <div>Brampton, Ontario, Canada</div>
