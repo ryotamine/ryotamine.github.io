@@ -18,9 +18,11 @@ const Projects = () => {
       <div className="text-center">
         <div className="section-name">Projects</div>
         <div className="headline">Full-Stack Web Developer</div>
-        <hr></hr>
       </div>
-      <div className="row">
+
+      <hr />
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
             href="https://github.com/ryotamine/tidylist"
@@ -50,7 +52,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
             href="https://github.com/ryotamine/ryotamine.github.io"
@@ -76,7 +79,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
             href="https://github.com/ryotamine/matrixurl"
@@ -103,7 +107,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
             href="https://github.com/ryotamine/surfparrot"
@@ -130,7 +135,8 @@ const Projects = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
             href="https://github.com/ryotamine/schoodle"

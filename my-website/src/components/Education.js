@@ -15,12 +15,14 @@ const Education = () => {
       <div className="text-center">
         <div className="section-name">Education</div>
         <div className="headline">Lighthouse Labs | University of Waterloo</div>
-        <hr></hr>
       </div>
-      <div className="row">
+
+      <hr />
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="https://lighthouselabs.ca/"
+            href="https://lighthouselabs.ca"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -28,7 +30,7 @@ const Education = () => {
               src={lighthouseLabs}
               alt="Lighthouse Labs"
               onLoad={() => setLoad(true)}
-              className={load ? "lighthouse-labs" : "loading-image"}
+              className={load ? "education-image" : "loading-image"}
             />
           </a>
         </div>
@@ -39,10 +41,11 @@ const Education = () => {
           <div>Toronto, Ontario, Canada</div>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="https://uwaterloo.ca/"
+            href="https://uwaterloo.ca"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -50,7 +53,7 @@ const Education = () => {
               src={universityOfWaterloo}
               alt="University of Waterloo"
               onLoad={() => setLoad(true)}
-              className={load ? "university-of-waterloo" : "loading-image"}
+              className={load ? "education-image" : "loading-image"}
             />
           </a>
         </div>

@@ -3,21 +3,14 @@
   border-bottom: 1px solid #000;
 }
 
-.employment-image,
-.lighthouse-labs,
-.projects-image,
-.skills-image,
-.university-of-waterloo {
-  border-radius: 50%;
-  height: auto;
-  max-height: 150px;
-  max-width: 150px;
-  width: 100%;
-}
-
 /* Remove default styling on columns */
 .col-lg-4 {
   text-align: center;
+}
+
+.col-lg-4,
+.col-lg-8 {
+  padding: 0px 16px !important;
 }
 
 .col-xl-2,
@@ -27,16 +20,23 @@
   text-align: center;
 }
 
-.col-lg-4,
-.col-lg-8 {
-  padding: 0px 16px !important;
-}
-
 /* Education and Employment Components */
-#education, 
+#education,
 #employment {
   background-color: #eee;
   padding: 70px;
+}
+
+/* Images */
+.education-image,
+.employment-image,
+.projects-image,
+.skills-image {
+  border-radius: 50%;
+  height: auto;
+  max-height: 150px;
+  max-width: 150px;
+  width: 100%;
 }
 
 /* Headline */
@@ -52,6 +52,14 @@ hr {
 /* Loading image */
 .loading-image {
   visibility: hidden;
+}
+
+/* Main picture */
+.main-picture {
+  background-image: url("../docs/toronto.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Navbar */
@@ -141,15 +149,15 @@ hr {
 }
 
 /* Profile, Projects and Skills Components */
-#profile, 
-#projects, 
+#profile,
+#projects,
 #skills {
   background-color: #f3efe0;
   padding: 70px;
 }
 
-/* Profile picture */
-.profile-picture {
+/* Profile image */
+.profile-image {
   border-radius: 50%;
   height: auto;
   max-height: 300px;
@@ -197,13 +205,6 @@ ul {
   padding-left: 16px;
 }
 
-.main-picture {
-  background-image: url("../docs/toronto.png");
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-
 /* Responsive design at min width 992px */
 @media screen and (min-width: 992px) {
   .navbar-responsive {
@@ -221,6 +222,7 @@ ul {
   #education,
   #employment,
   #profile,
+  #projects,
   #skills {
     padding: 70px 24px;
     text-align: center;
@@ -233,5 +235,5 @@ ul {
 
   .navbar-section {
     display: none;
-  } 
+  }
 }

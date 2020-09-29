@@ -14,20 +14,22 @@ const Profile = () => {
       <div className="text-center">
         <div className="section-name">Profile</div>
         <div className="headline">Product Manager | Mechanical Engineering</div>
-        <hr></hr>
       </div>
-      <div className="row">
+
+      <hr />
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <img
             src={profilePicture}
             alt="Ryota Mine"
             onLoad={() => setLoad(true)}
-            className={load ? "profile-picture" : "loading-image"}
+            className={load ? "profile-image" : "loading-image"}
           />
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">Summary</div>
-          <div className="mb-3">
+          <div className="mb-4">
             Product Manager with 5 years of Mechanical Engineering background in
             the automotive industry (mainly on interior parts). I have been
             fascinated with how software programs are designed, developed and

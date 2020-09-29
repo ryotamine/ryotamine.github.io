@@ -18,12 +18,14 @@ const Employment = () => {
       <div className="text-center">
         <div className="section-name">Employment</div>
         <div className="headline">Product Manager | Mechanical Engineering</div>
-        <hr></hr>
       </div>
-      <div className="row">
+
+      <hr />
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="http://tasttlig.com/"
+            href="https://tasttlig.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -39,7 +41,7 @@ const Employment = () => {
           <div className="title">Tasttlig Corporation</div>
           <strong>Product Manager</strong>
           <div>Oct 2020 - Present</div>
-          <div className="mb-5">Toronto, Ontario, Canada</div>
+          <div className="mb-4">Toronto, Ontario, Canada</div>
 
           <strong>Software Developer</strong>
           <div>Oct 2019 - Sep 2020</div>
@@ -74,10 +76,11 @@ const Employment = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="http://abctechnologies.com/"
+            href="http://abctechnologies.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -116,10 +119,11 @@ const Employment = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="https://www.ford.com/"
+            href="https://www.ford.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -157,10 +161,11 @@ const Employment = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="https://wilbertplastics.com/"
+            href="https://wilbertplastics.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -194,10 +199,11 @@ const Employment = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+
+      <div className="row pb-2">
         <div className="mb-3 col-lg-4">
           <a
-            href="https://www.magna.com/"
+            href="https://www.magna.com"
             target="_blank"
             rel="noopener noreferrer"
           >

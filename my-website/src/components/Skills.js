@@ -25,8 +25,10 @@ const Skills = () => {
       <div className="text-center">
         <div className="section-name">Skills</div>
         <div className="headline">Front-End | Back-End | Database</div>
-        <hr></hr>
       </div>
+
+      <hr />
+
       <div className="row">
         <div className="col-xl-2 col-md-4 col-sm-6">
           <img
@@ -83,10 +85,11 @@ const Skills = () => {
           <div className="skills-name">Bootstrap</div>
         </div>
       </div>
+
       <div className="row">
         <div className="col-xl-2 col-md-4 col-sm-6">
-          <img 
-            src={node} 
+          <img
+            src={node}
             alt="Node"
             onLoad={() => setLoad(true)}
             className={load ? "skills-image" : "loading-image"}
@@ -121,8 +124,8 @@ const Skills = () => {
           <div className="skills-name">PostgreSQL</div>
         </div>
         <div className="col-xl-2 col-md-4 col-sm-6">
-          <img 
-            src={sql} 
+          <img
+            src={sql}
             alt="SQL"
             onLoad={() => setLoad(true)}
             className={load ? "skills-image" : "loading-image"}
