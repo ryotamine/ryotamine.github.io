@@ -64,30 +64,44 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/ryotamine"
             target="_blank"
             rel="noopener noreferrer"
-            className="fab fa-linkedin fa-2x social-media-icon"
-          ></a>
+          >
+            <i
+              alt="Ryota Mine LinkedIn"
+              className="fab fa-linkedin fa-2x social-media-icon"
+            ></i>
+          </a>
         </div>
         <div className="social-media-section">
           <a
             href="https://github.com/ryotamine"
             target="_blank"
             rel="noopener noreferrer"
-            className="fab fa-github-square fa-2x social-media-icon"
-          ></a>
+          >
+            <i
+              alt="Ryota Mine GitHub"
+              className="fab fa-github-square fa-2x social-media-icon"
+            ></i>
+          </a>
         </div>
         <div className="social-media-section">
           <a
             href="https://twitter.com/ryotamine"
             target="_blank"
             rel="noopener noreferrer"
-            className="fab fa-twitter-square fa-2x social-media-icon"
-          ></a>
+          >
+            <i
+              alt="Ryota Mine Twitter"
+              className="fab fa-twitter-square fa-2x social-media-icon"
+            ></i>
+          </a>
         </div>
         <div className="social-media-section">
-          <a
-            href="mailto:ryotamine@gmail.com"
-            className="fas fa-envelope-square fa-2x social-media-icon"
-          ></a>
+          <a href="mailto:ryotamine@gmail.com">
+            <i
+              alt="Ryota Mine Gmail"
+              className="fas fa-envelope-square fa-2x social-media-icon"
+            ></i>
+          </a>
         </div>
       </nav>
 
