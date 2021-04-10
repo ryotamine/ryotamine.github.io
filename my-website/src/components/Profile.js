@@ -13,7 +13,9 @@ const Profile = () => {
     <div id="profile">
       <div className="text-center">
         <div className="section-name">Profile</div>
-        <div className="headline">Product Manager | Mechanical Engineering</div>
+        <div className="headline">
+          Day Trader | Software Developer | Mechanical Engineering
+        </div>
       </div>
 
       <hr />
@@ -30,23 +32,24 @@ const Profile = () => {
         <div className="mb-3 col-lg-8">
           <div className="title">Summary</div>
           <div className="mb-4">
-            Product Manager with 5 years of Mechanical Engineering background in
-            the automotive industry (mainly on interior parts). I have been
-            fascinated with how software programs are designed, developed and
-            released to improve the workplace. This curiosity led me to pursue a
-            career in software development. I am a continuous learner with
-            profound leadership and project management skills. I also have
-            international work experience in the USA and Mexico.
+            Self-Employed Day Trader with a combined 7 years of Mechanical
+            Engineering background in the automotive industry (mainly on
+            interior parts) and Software Development. I have been fascinated
+            with the design, development and build of physical and digital
+            products to improve society. Also, I enjoy financial literacy and
+            how the concept can be applied to enhance human lives. This
+            combination of interests led me to create my own business in day
+            trading. I leverage my technical experience and financial literacy
+            to do product and market research on large and mid-cap stocks. Then,
+            I make and implement trade plans with risk management.
           </div>
           <div className="title">Details</div>
-          <div>
-            <strong>Name</strong>
-            <div>Ryota Mine</div>
-            <strong>Location</strong>
-            <div>Toronto, Ontario, Canada</div>
-            <strong>Industry</strong>
-            <div>Computer Software</div>
-          </div>
+          <div className="sub-title">Name</div>
+          <div>Ryota Mine</div>
+          <div className="sub-title">Location</div>
+          <div>Toronto, Ontario, Canada</div>
+          <div className="sub-title">Industry</div>
+          <div>Investment Management</div>
         </div>
       </div>
     </div>
