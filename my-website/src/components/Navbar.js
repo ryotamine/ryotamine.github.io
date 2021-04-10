@@ -2,6 +2,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
+// Styling
+import linkedin from "../../docs/linkedin.png";
+import github from "../../docs/github.png";
+import twitter from "../../docs/twitter.png";
+import gmail from "../../docs/gmail.png";
+
 const Navbar = () => {
   // Set initial state
   const [navbarEffect, setNavbarEffect] = useState(false);
@@ -11,7 +17,7 @@ const Navbar = () => {
     window.scrollTo(0, 0);
 
     window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < window.innerHeight - 70;
+      const isTop = window.scrollY < window.innerHeight - 80;
 
       if (isTop) {
         setNavbarEffect(false);
@@ -33,30 +39,32 @@ const Navbar = () => {
 
         <div className="navbar-spacing" />
 
-        <div className="navbar-section">
-          <Link activeClass="active" to="profile" spy={true} offset={-70}>
-            PROFILE
-          </Link>
-        </div>
-        <div className="navbar-section">
-          <Link activeClass="active" to="education" spy={true} offset={-70}>
-            EDUCATION
-          </Link>
-        </div>
-        <div className="navbar-section">
-          <Link activeClass="active" to="skills" spy={true} offset={-70}>
-            SKILLS
-          </Link>
-        </div>
-        <div className="navbar-section">
-          <Link activeClass="active" to="employment" spy={true} offset={-70}>
-            EMPLOYMENT
-          </Link>
-        </div>
-        <div className="navbar-section">
-          <Link activeClass="active" to="projects" spy={true} offset={-70}>
-            PROJECTS
-          </Link>
+        <div className="navbar-content">
+          <div className="navbar-section">
+            <Link activeClass="active" to="profile" spy={true} offset={-80}>
+              PROFILE
+            </Link>
+          </div>
+          <div className="navbar-section">
+            <Link activeClass="active" to="education" spy={true} offset={-80}>
+              EDUCATION
+            </Link>
+          </div>
+          <div className="navbar-section">
+            <Link activeClass="active" to="skills" spy={true} offset={-80}>
+              SKILLS
+            </Link>
+          </div>
+          <div className="navbar-section">
+            <Link activeClass="active" to="employment" spy={true} offset={-80}>
+              EMPLOYMENT
+            </Link>
+          </div>
+          <div className="navbar-section">
+            <Link activeClass="active" to="projects" spy={true} offset={-80}>
+              PROJECTS
+            </Link>
+          </div>
         </div>
 
         <div className="social-media-section">
@@ -65,10 +73,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i
-              alt="Ryota Mine LinkedIn"
-              className="fab fa-linkedin fa-2x social-media-icon"
-            ></i>
+            <img src={linkedin} alt="Ryota Mine LinkedIn" />
           </a>
         </div>
         <div className="social-media-section">
@@ -77,10 +82,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i
-              alt="Ryota Mine GitHub"
-              className="fab fa-github-square fa-2x social-media-icon"
-            ></i>
+            <img src={github} alt="Ryota Mine GitHub" />
           </a>
         </div>
         <div className="social-media-section">
@@ -89,18 +91,12 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i
-              alt="Ryota Mine Twitter"
-              className="fab fa-twitter-square fa-2x social-media-icon"
-            ></i>
+            <img src={twitter} alt="Ryota Mine Twitter" />
           </a>
         </div>
         <div className="social-media-section">
           <a href="mailto:ryotamine@gmail.com">
-            <i
-              alt="Ryota Mine Gmail"
-              className="fas fa-envelope-square fa-2x social-media-icon"
-            ></i>
+            <img src={gmail} alt="Ryota Mine Gmail" />
           </a>
         </div>
       </nav>
@@ -108,27 +104,57 @@ const Navbar = () => {
       {/* Responsive Design */}
       <nav className="navbar-responsive">
         <div className="navbar-responsive-section">
-          <Link to="profile" className="fas fa-user">
+          <Link
+            activeClass="active"
+            to="profile"
+            spy={true}
+            offset={-80}
+            className="fas fa-user"
+          >
             <div className="navbar-responsive-section-name">Profile</div>
           </Link>
         </div>
         <div className="navbar-responsive-section">
-          <Link to="education" className="fas fa-graduation-cap">
+          <Link
+            activeClass="active"
+            to="education"
+            spy={true}
+            offset={-80}
+            className="fas fa-graduation-cap"
+          >
             <div className="navbar-responsive-section-name">Education</div>
           </Link>
         </div>
         <div className="navbar-responsive-section">
-          <Link to="skills" className="fas fa-tools">
+          <Link
+            activeClass="active"
+            to="skills"
+            spy={true}
+            offset={-80}
+            className="fas fa-tools"
+          >
             <div className="navbar-responsive-section-name">Skills</div>
           </Link>
         </div>
         <div className="navbar-responsive-section">
-          <Link to="employment" className="fas fa-briefcase">
+          <Link
+            activeClass="active"
+            to="employment"
+            spy={true}
+            offset={-80}
+            className="fas fa-briefcase"
+          >
             <div className="navbar-responsive-section-name">Employment</div>
           </Link>
         </div>
         <div className="navbar-responsive-section">
-          <Link to="projects" className="fas fa-project-diagram">
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            offset={-80}
+            className="fas fa-project-diagram"
+          >
             <div className="navbar-responsive-section-name">Projects</div>
           </Link>
         </div>

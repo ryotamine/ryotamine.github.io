@@ -74,14 +74,21 @@ hr {
 .navbar,
 .navbar-effect {
   align-items: center;
+  color: #000;
   display: flex;
-  height: 70px;
+  height: 80px;
   left: 0px;
-  padding: 16px 62px;
+  padding: 16px 72px;
   position: fixed;
   top: 0px;
   width: 100%;
   z-index: 1;
+}
+
+/* Navbar content */
+.navbar-content {
+  display: flex;
+  padding: 0px 8px;
 }
 
 /* Navbar effect */
@@ -92,10 +99,11 @@ hr {
 
 /* Navbar logo */
 .navbar-logo {
-  color: #000;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
+  height: 32px;
   padding: 0px 8px;
+  width: 48px;
 }
 
 /* Navbar logo hover */
@@ -107,10 +115,10 @@ hr {
 .navbar-responsive {
   align-items: center;
   background-color: #92e585;
-  border-top: 1px solid #ccc;
   bottom: 0px;
+  color: #000;
   display: flex;
-  height: 70px;
+  height: 80px;
   justify-content: space-around;
   left: 0px;
   padding: 16px;
@@ -122,7 +130,6 @@ hr {
 
 /* Navbar responsive section */
 .navbar-responsive-section {
-  color: #000;
   padding: 0px 4px;
 }
 
@@ -144,7 +151,6 @@ hr {
 
 /* Navbar section */
 .navbar-section {
-  color: #000;
   padding: 0px 16px;
 }
 
@@ -187,14 +193,8 @@ hr {
   margin-top: 8px;
 }
 
-/* Social media icon */
-.social-media-icon {
-  color: #000;
-}
-
 /* Social media section */
 .social-media-section {
-  color: #000;
   padding: 0px 8px;
 }
 
@@ -237,6 +237,7 @@ ul {
     padding: 16px;
   }
 
+  .navbar-content,
   .navbar-section {
     display: none;
   }
