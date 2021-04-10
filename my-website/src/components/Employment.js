@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 // Styling
+import selfEmployed from "../../docs/self-employed.png";
 import tasttlig from "../../docs/tasttlig.png";
 import abc from "../../docs/abc.png";
 import ford from "../../docs/ford.png";
@@ -17,10 +18,42 @@ const Employment = () => {
     <div id="employment">
       <div className="text-center">
         <div className="section-name">Employment</div>
-        <div className="headline">Product Manager | Mechanical Engineering</div>
+        <div className="headline">
+          Day Trader | Software Developer | Mechanical Engineering
+        </div>
       </div>
 
       <hr />
+
+      <div className="row pb-2">
+        <div className="mb-3 col-lg-4">
+          <img
+            src={selfEmployed}
+            alt="Self-Employed"
+            onLoad={() => setLoad(true)}
+            className={load ? "employment-image" : "loading-image"}
+          />
+        </div>
+        <div className="mb-3 col-lg-8">
+          <div className="title">Self-Employed</div>
+          <div className="sub-title">Day Trader</div>
+          <div>Feb 2021 - Present</div>
+          <div>Toronto, Ontario, Canada</div>
+          <ul>
+            <li>
+              Research product and market data on large and mid-cap stocks
+              independently to create trade plans with risk management
+            </li>
+            <li>
+              Implement trade plans during stock market hours meticulously to
+              test hypotheses
+            </li>
+            <li>
+              Document trade performances accurately for Continuous Improvement
+            </li>
+          </ul>
+        </div>
+      </div>
 
       <div className="row pb-2">
         <div className="mb-3 col-lg-4">
@@ -39,11 +72,27 @@ const Employment = () => {
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">Tasttlig Corporation</div>
-          <strong>Product Manager</strong>
-          <div>Oct 2020 - Present</div>
-          <div className="mb-4">Toronto, Ontario, Canada</div>
+          <div className="sub-title">Product Manager</div>
+          <div>Oct 2020 - Jan 2021</div>
+          <div>Toronto, Ontario, Canada</div>
+          <ul className="mb-4">
+            <li>
+              Managed design, development and release of full-stack food
+              experiences web application consistently to align with business
+              model
+            </li>
+            <li>
+              Collaborated with Engineering, Sales and Marketing on business
+              model development concisely to continuously prioritize and improve
+              features
+            </li>
+            <li>
+              Created company software development Internship program
+              deliberately to help new developers
+            </li>
+          </ul>
 
-          <strong>Software Developer</strong>
+          <div className="sub-title">Software Developer</div>
           <div>Oct 2019 - Sep 2020</div>
           <div>Toronto, Ontario, Canada</div>
           <ul>
@@ -94,7 +143,7 @@ const Employment = () => {
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">ABC Technologies</div>
-          <strong>Project Engineering</strong>
+          <div className="sub-title">Project Engineering</div>
           <div>Sep 2017 - Dec 2018</div>
           <div>Toronto, Ontario, Canada</div>
           <ul>
@@ -137,7 +186,9 @@ const Employment = () => {
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">Ford Motor Company</div>
-          <strong>Program Supplier Technical Assistance Engineering</strong>
+          <div className="sub-title">
+            Program Supplier Technical Assistance Engineering
+          </div>
           <div>Nov 2014 - Jun 2017</div>
           <div>Dearborn, Michigan, USA</div>
           <ul>
@@ -179,7 +230,7 @@ const Employment = () => {
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">Wilbert Plastic Services</div>
-          <strong>Project Engineering</strong>
+          <div className="sub-title">Project Engineering</div>
           <div>Mar - Nov 2014</div>
           <div>Troy, Michigan, USA</div>
           <ul>
@@ -216,8 +267,10 @@ const Employment = () => {
           </a>
         </div>
         <div className="mb-3 col-lg-8">
-          <div className="title">Magna International</div>
-          <strong>Research and Development Engineering Co-op</strong>
+          <div className="title">Magna Exteriors and Interiors: Plastcoat</div>
+          <div className="sub-title">
+            Research and Development Engineering Co-op
+          </div>
           <div>Aug - Dec 2011</div>
           <div>Brampton, Ontario, Canada</div>
           <ul>
@@ -232,6 +285,83 @@ const Employment = () => {
             <li>
               Revised tool surfaces using AutoCAD for simplifying Build
               Standards of injection moulding machines
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="row pb-2">
+        <div className="mb-3 col-lg-4">
+          <a
+            href="https://www.magna.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={magna}
+              alt="Magna International"
+              onLoad={() => setLoad(true)}
+              className={load ? "employment-image" : "loading-image"}
+            />
+          </a>
+        </div>
+        <div className="mb-3 col-lg-8">
+          <div className="title">Magna Closures</div>
+          <div className="sub-title">Design Engineering Co-op</div>
+          <div>Jan - Apr 2011</div>
+          <div>Newmarket, Ontario, Canada</div>
+          <ul>
+            <li>
+              Designed automotive door latch system components using CATIA V5 to
+              improve existing design
+            </li>
+            <li>
+              Performed Finite Element Analysis (FEA) using ANSYS DesignSpace to
+              do design modifications
+            </li>
+            <li>
+              Updated design documents (Bill of Materials, Engineering
+              Specifications, DFMEA, Tolerance Stacks) concisely for automotive
+              closures project
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="row pb-2">
+        <div className="mb-3 col-lg-4">
+          <a
+            href="https://www.magna.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={magna}
+              alt="Magna International"
+              onLoad={() => setLoad(true)}
+              className={load ? "employment-image" : "loading-image"}
+            />
+          </a>
+        </div>
+        <div className="mb-3 col-lg-8">
+          <div className="title">
+            Cosma International: Promatek Research Centre (Magna)
+          </div>
+          <div className="sub-title">Project Engineering Co-op</div>
+          <div>Oct - Dec 2009</div>
+          <div>Brampton, Ontario, Canada</div>
+          <ul>
+            <li>
+              Managed manufacturing process of automotive chassis project
+              effectively for Continuous Improvement
+            </li>
+            <li>
+              Designed fixtures using Autodesk Inventor to support automotive
+              casting and forging
+            </li>
+            <li>
+              Collected data thoroughly for analysis of Design of Experiments
+              (DOE)
             </li>
           </ul>
         </div>
