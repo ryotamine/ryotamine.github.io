@@ -73,7 +73,11 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedin} alt="Ryota Mine LinkedIn" />
+            <img
+              src={linkedin}
+              alt="Ryota Mine LinkedIn"
+              className="social-media-icon"
+            />
           </a>
         </div>
         <div className="social-media-section">
@@ -82,7 +86,11 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} alt="Ryota Mine GitHub" />
+            <img
+              src={github}
+              alt="Ryota Mine GitHub"
+              className="social-media-icon"
+            />
           </a>
         </div>
         <div className="social-media-section">
@@ -91,12 +99,20 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={twitter} alt="Ryota Mine Twitter" />
+            <img
+              src={twitter}
+              alt="Ryota Mine Twitter"
+              className="social-media-icon"
+            />
           </a>
         </div>
         <div className="social-media-section">
           <a href="mailto:ryotamine@gmail.com">
-            <img src={gmail} alt="Ryota Mine Gmail" />
+            <img
+              src={gmail}
+              alt="Ryota Mine Gmail"
+              className="social-media-icon"
+            />
           </a>
         </div>
       </nav>

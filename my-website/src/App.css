@@ -38,10 +38,10 @@ body {
 .projects-image,
 .skills-image {
   border-radius: 50%;
-  height: auto;
+  height: 150px;
   max-height: 150px;
   max-width: 150px;
-  width: 100%;
+  width: 150px;
 }
 
 /* Headline */
@@ -173,10 +173,10 @@ hr {
 /* Profile image */
 .profile-image {
   border-radius: 50%;
-  height: auto;
+  height: 300px;
   max-height: 300px;
   max-width: 300px;
-  width: 100%;
+  width: 300px;
 }
 
 /* Remove default styling on rows */
@@ -209,6 +209,14 @@ hr {
 /* Skip link for accessibility focus */
 .skip-link:focus {
   top: 0px;
+}
+
+/* Social media icon */
+.social-media-icon {
+  height: 32px;
+  max-height: 32px;
+  max-width: 32px;
+  width: 32px;
 }
 
 /* Social media section */
