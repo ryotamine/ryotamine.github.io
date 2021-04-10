@@ -14,7 +14,9 @@ const Education = () => {
     <div id="education">
       <div className="text-center">
         <div className="section-name">Education</div>
-        <div className="headline">Lighthouse Labs | University of Waterloo</div>
+        <div className="headline">
+          Self-Taught | Lighthouse Labs | University of Waterloo
+        </div>
       </div>
 
       <hr />
@@ -36,8 +38,8 @@ const Education = () => {
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">Lighthouse Labs</div>
-          <strong>Diploma, Web Development</strong>
-          <div>Mar - May 2019</div>
+          <div className="sub-title">Diploma, Web Development</div>
+          <div>2019</div>
           <div>Toronto, Ontario, Canada</div>
         </div>
       </div>
@@ -59,9 +61,9 @@ const Education = () => {
         </div>
         <div className="mb-3 col-lg-8">
           <div className="title">University of Waterloo</div>
-          <strong>
+          <div className="sub-title">
             Bachelor of Applied Science, Honours Mechanical Engineering Co-op
-          </strong>
+          </div>
           <div>2013</div>
           <div>Waterloo, Ontario, Canada</div>
         </div>
