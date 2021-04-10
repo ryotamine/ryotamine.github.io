@@ -16,6 +16,9 @@ import "./App.css";
 // Render Personal Website
 const App = () => (
   <div>
+    <a className="skip-link" href="#main">
+      Skip to Main
+    </a>
     <Navbar />
     <MainPicture />
     <Profile />

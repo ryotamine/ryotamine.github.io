@@ -196,6 +196,21 @@ hr {
   margin-top: 8px;
 }
 
+/* Skip link for accessibility */
+.skip-link {
+  background-color: #000000;
+  color: #fff;
+  left: 0px;
+  padding: 8px;
+  position: absolute;
+  top: -40px;
+}
+
+/* Skip link for accessibility focus */
+.skip-link:focus {
+  top: 0px;
+}
+
 /* Social media section */
 .social-media-section {
   padding: 0px 8px;
