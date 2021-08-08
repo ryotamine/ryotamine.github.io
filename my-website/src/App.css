@@ -1,0 +1,275 @@
+/* Navbar section underline */
+.active {
+  border-bottom: 1px solid #000;
+}
+
+/* Website body */
+body {
+  color: #000;
+}
+
+/* Remove default styling on columns */
+.col-lg-4 {
+  text-align: center;
+}
+
+.col-lg-4,
+.col-lg-8 {
+  padding: 0px 16px !important;
+}
+
+.col-xl-2,
+.col-md-4,
+.col-sm-6 {
+  padding: 16px !important;
+  text-align: center;
+}
+
+/* Education and Employment Components */
+#education,
+#employment {
+  background-color: #eee;
+  padding: 80px;
+}
+
+/* Images */
+.education-image,
+.employment-image,
+.projects-image,
+.skills-image {
+  border-radius: 50%;
+  height: 140px;
+  max-height: 140px;
+  max-width: 140px;
+  width: 140px;
+}
+
+/* Headline */
+.headline {
+  font-size: 24px;
+}
+
+/* Horizontal rule */
+hr {
+  margin: 48px 0px;
+}
+
+/* Loading image */
+.loading-image {
+  visibility: hidden;
+}
+
+/* Main picture */
+.main-picture {
+  background-image: url("../docs/toronto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  object-fit: cover;
+  width: 100vw;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+}
+
+/* Navbar and navbar effect */
+.navbar,
+.navbar-effect {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  left: 0px;
+  padding: 16px 72px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navbar content */
+.navbar-content {
+  display: flex;
+  padding: 0px 8px;
+}
+
+/* Navbar effect */
+.navbar-effect {
+  background-color: #92e585;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Navbar logo */
+.navbar-logo {
+  font-size: 20px;
+  font-weight: 600;
+  height: 32px;
+  padding: 0px 8px;
+  width: 48px;
+}
+
+/* Navbar logo hover */
+.navbar-logo:hover {
+  cursor: pointer;
+}
+
+/* Navbar responsive */
+.navbar-responsive {
+  align-items: center;
+  background-color: #92e585;
+  bottom: 0px;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  left: 0px;
+  padding: 16px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Navbar responsive section */
+.navbar-responsive-section {
+  padding: 0px 4px;
+}
+
+/* Navbar and social media section hover */
+.navbar-responsive-section:hover,
+.navbar-section:hover,
+.social-media-icon:hover {
+  color: #707070;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Navbar responsive section name */
+.navbar-responsive-section-name {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+/* Navbar section */
+.navbar-section {
+  padding: 0px 16px;
+}
+
+/* Navbar spacing */
+.navbar-spacing {
+  flex: 1;
+}
+
+/* Profile, Projects and Skills Components */
+#profile,
+#projects,
+#skills {
+  background-color: #f3efe0;
+  padding: 80px;
+}
+
+/* Profile image */
+.profile-image {
+  border-radius: 50%;
+  height: 232px;
+  max-height: 232px;
+  max-width: 232px;
+  width: 232px;
+}
+
+/* Remove default styling on rows */
+.row {
+  margin: 0px !important;
+}
+
+/* Section name */
+.section-name {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Skills name */
+.skills-name {
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  background-color: #000000;
+  color: #fff;
+  left: 0px;
+  padding: 8px;
+  position: absolute;
+  top: -40px;
+}
+
+/* Skip link for accessibility focus */
+.skip-link:focus {
+  top: 0px;
+}
+
+/* Social media icon */
+.social-media-icon {
+  height: 32px;
+  max-height: 32px;
+  max-width: 32px;
+  width: 32px;
+}
+
+/* Social media section */
+.social-media-section {
+  padding: 0px 8px;
+}
+
+/* Sub-title */
+.sub-title {
+  font-weight: 600;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Unlisted order */
+ul {
+  padding-left: 16px;
+}
+
+/* Responsive design at min width 992px */
+@media screen and (min-width: 992px) {
+  .navbar-responsive {
+    display: none;
+  }
+}
+
+/* Responsive design at max width 991px */
+@media screen and (max-width: 991px) {
+  .col-lg-4,
+  .col-lg-8 {
+    padding: 0px !important;
+  }
+
+  #education,
+  #employment,
+  #profile,
+  #projects,
+  #skills {
+    padding: 80px 24px;
+    text-align: center;
+  }
+
+  .navbar,
+  .navbar-effect {
+    padding: 16px;
+  }
+
+  .navbar-content,
+  .navbar-section {
+    display: none;
+  }
+}
