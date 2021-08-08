@@ -77,12 +77,12 @@ const Employment = () => {
           <div>Toronto, Ontario, Canada</div>
           <ul className="mb-4">
             <li>
-              Managed design, development and release of full-stack food
+              Managed design, development, and release of full-stack food
               experiences web application consistently to align with business
               model
             </li>
             <li>
-              Collaborated with Engineering, Sales and Marketing on business
+              Collaborated with Engineering, Sales, and Marketing on business
               model development concisely to continuously prioritize and improve
               features
             </li>
@@ -98,15 +98,15 @@ const Employment = () => {
           <ul>
             <li>
               Implemented full-stack food experiences web application
-              sufficiently using React, Node, PostgreSQL, Git and AWS to align
+              sufficiently using React, Node, PostgreSQL, Git, and AWS to align
               with business model
             </li>
             <li>
-              Researched, planned, developed, debugged and refactored features
+              Researched, planned, developed, debugged, and refactored features
               on timely basis in agile environment
             </li>
             <li>
-              Integrated third-party APIs such as AWS S3, Google Maps and Stripe
+              Integrated third-party APIs such as AWS S3, Google Maps, and Stripe
               adequately to enhance business model
             </li>
             <li>
@@ -114,7 +114,7 @@ const Employment = () => {
               thoroughly for developers to adhere
             </li>
             <li>
-              Collaborated with Engineering, Sales and Marketing on business
+              Collaborated with Engineering, Sales, and Marketing on business
               model development concisely to continuously prioritize and improve
               features
             </li>
@@ -148,12 +148,12 @@ const Employment = () => {
           <div>Toronto, Ontario, Canada</div>
           <ul>
             <li>
-              Managed design, development and manufacturing of 60 automotive
+              Managed design, development, and manufacturing of 60 automotive
               centre console parts steadily from concept to production
             </li>
             <li>
               Reviewed DFMEA, CAD Models, Engineering Drawings, Moldflow, Tool
-              Trials and DVP&R meticulously to consider Design for Manufacturing
+              Trials, and DVP&R meticulously to consider Design for Manufacturing
               and Assembly (DFM/DFA)
             </li>
             <li>
@@ -205,8 +205,8 @@ const Employment = () => {
               Readiness
             </li>
             <li>
-              Collaborated with Product Development, Manufacturing and Suppliers
-              effectively to continuously improve design, manufacturing and
+              Collaborated with Product Development, Manufacturing, and Suppliers
+              effectively to continuously improve design, manufacturing, and
               assembly quality of parts, resulting $611,200 USD in cost savings
             </li>
           </ul>

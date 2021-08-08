@@ -43,10 +43,10 @@ const Projects = () => {
           <ul>
             <li>
               Implemented full-stack to-do list using HTML, CSS, JavaScript,
-              Node, Express, EJS and PostgreSQL in 24 hours
+              Node, Express, EJS, and PostgreSQL in 24 hours
             </li>
             <li>
-              Applied REST deliberately to register, login, update and delete
+              Applied REST deliberately to register, login, update, and delete
               user profiles
             </li>
           </ul>
@@ -100,7 +100,7 @@ const Projects = () => {
           <div>Jun 2019</div>
           <ul>
             <li>
-              Created full-stack URL shortener using Ruby on Rails, ERB and
+              Created full-stack URL shortener using Ruby on Rails, ERB, and
               SQLite in 20 hours
             </li>
             <li>Debugged code sufficiently to meet altering needs</li>
@@ -129,7 +129,7 @@ const Projects = () => {
           <ul>
             <li>
               Generated full-stack live-music event listing preview using React,
-              Node, Express, PostgreSQL and Spotify API in 96 hours
+              Node, Express, PostgreSQL, and Spotify API in 96 hours
             </li>
             <li>Considered UI/UX adequately to meet intuitive use</li>
           </ul>
@@ -157,11 +157,11 @@ const Projects = () => {
           <ul>
             <li>
               Produced full-stack event scheduler using HTML, CSS, JavaScript,
-              jQuery, AJAX, Bootstrap, Node, Express, EJS and PostgreSQL in 48
+              jQuery, AJAX, Bootstrap, Node, Express, EJS, and PostgreSQL in 48
               hours
             </li>
             <li>
-              Managed front-end, back-end and database tasks consistently from
+              Managed front-end, back-end, and database tasks consistently from
               start to finish
             </li>
           </ul>

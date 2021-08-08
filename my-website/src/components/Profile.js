@@ -35,7 +35,7 @@ const Profile = () => {
             Self-Employed Day Trader with a combined 7 years of Mechanical
             Engineering background in the automotive industry (mainly on
             interior parts) and Software Development. I have been fascinated
-            with the design, development and build of physical and digital
+            with the design, development, and build of physical and digital
             products to improve society. Also, I enjoy financial literacy and
             how the concept can be applied to enhance human lives. This
             combination of interests led me to create my own business in day
